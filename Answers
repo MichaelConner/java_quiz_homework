@@ -2,12 +2,12 @@ Polymorphism
 
 -What does the word 'polymorphism' mean?
 
-polymorphism means 'many forms'.
+Polymorphism means 'many forms'.
 
 
 -What does it mean when we apply polymorphism to OO design? Give a simple Java example.
 
-in OO design polymorphism applies to circumstances where an interface is used to allow differing object types to be treated as similar - a simple java example could be a child class that inherits from a parent class.
+In OO design polymorphism applies to circumstances where an interface is used to allow differing object types to be treated as similar - a simple java example could be a child class that inherits from a parent class.
 
 
 -What can we use to implement polymorphism in Java?
@@ -22,7 +22,7 @@ Interface classes.
 
 -Give an example of when you could use polymorphism.
 
-an IFly interface that would allow Bird and Insect classes to be treated as 'flyable' objects.
+An IFly interface that would allow Bird and Insect classes to be treated as 'flyable' objects.
 
 
 
@@ -36,10 +36,14 @@ Composition is when an object is made up of one or more other objects.
 
 -When would you use composition? Provide a simple example in Java.
 
+You would use composition when you want an object to be able to use behaviours from another class or classes of a different type (i.e not via inheritance).
 
 
 -What is/are the advantage(s) of using composition?
 
+You can have multiple objects take a certain action without having to change the underlying class structure - it removes unwanted dependencies and makes the code more extendable.
 
 
 -What happens to the behaviours when the object composed of them is destroyed?
+
+The behaviours are still available for other objects to use
